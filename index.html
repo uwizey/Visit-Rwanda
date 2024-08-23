@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Take a look | Visit Rwanda in few minutes</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" type="image/x-icon" href="/media/J-icon.png">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js' defer></script>
+</head>
+<body>
+    <div class="loader-wrapper">
+        <div class="content">
+            <h3>TAKE A LOOK</h3>
+            <span class="loader-tube">
+                <span class="liquid"></span>
+            </span>
+        </div>
+    </div>
+    <header id="home">
+        <nav>
+            <h2>TAKE A LOOK</h2>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-button">
+                <img src="media/menu.png" alt="" height="32" width="32"  >
+            </label>
+             
+            <label for="sidebar-active" id="overlay"></label>
+            <div class="links-container">
+                <span class="menu-motion"></span>
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <img src="media/close.png" alt="" height="32" width="32" class="close" >
+                </label>
+                <a id="link" href="#home" class="home-link">Home</a>
+                <a id="link" href="#kgl">City of Kigali</a>
+                <a id="link" href="#parcks">Game packs</a>
+                <a id="link" href="#landscapes">Landscapes</a>
+                <a id="link" href="#culture">Art & culture</a>
+            </div>
+        </nav>
+        <span class="left-motion"></span>
+            <div class="video-container">
+               <video autoplay loop muted class="bkg-vd">
+                    <source src="vid/just-take-a-look.mp4" type="video/mp4">
+                </video>  
+                 
+                  
+                <div class="content">
+                    <div class="roller">
+                        <h1>Just <span>take</span> a look</h1>
+                    </div>
+                    <p id="undertext">Discover breathtaking landscapes and vibrant wildlife in our incredible national parks, where unforgettable experiences and natural beauty await.</p>
+                    <button><a href="#kgl"><p>Explore</p></a></button>
+                </div>
+            </div>  
+    </header>
+
+    <main>
+        <section class="intro ">
+           <div class="content reveal">
+            <h1 id="heading">Welcome to Rwanda</h1>
+            <p id="sub-heading">Rwanda, officially the Republic of Rwanda, is a landlocked country in Central Africa. It is bordered by Uganda, Tanzania, Burundi, and the Democratic Republic of the Congo1. With a population of over 13 million people, Rwanda is hilly, fertile, and located a few degrees south of the Equator, get a snapshot about it here here.</p>
+           </div>
+        </section>
+
+        <section class="kigali" id="kgl" >
+            <div class="kigali-content">
+                <h1  id="heading"> City of Kigali</h1>
+                <p id="sub-heading"> 
+                    Kigali, Rwanda's capital, enchants with its lush hills, vibrant culture, and modern charm. The city's clean streets and scenic beauty create a captivating atmosphere.</p>
+                 
+                <div class="wrapper">
+                    <div class="container">
+                        <figure>
+                        <img src="media/amahoro.jpg" class="image">
+                        <figcaption>Amahoro stadium, or Amahoro national of Stadium With a capacity of 45,508 seats.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="media/bkarena1.jpg" class="image">
+                            <figcaption>BK Arena is a versatile indoor venue in Kigali, Rwanda, primarily hosting basketball and volleyball events.</figcaption>
+                         </figure>
+                         <figure>
+                            <img src="media/kcc.jpg" class="image">
+                            <figcaption> The Kigali Convention Centre is a convention centre in Kigali located on Highway KN5.</figcaption>
+                         </figure>
+                         
+                         <figure>
+                            <img src="media/kgl_airport.jpg" class="image">
+                            <figcaption>Kigali International Airport  Kanombe is the primary international airport in Rwanda.</figcaption>
+                         </figure>
+                         <figure>
+                            <img src="media/freezone.jpg" class="image">
+                            <figcaption> 
+                            KIgali car free zone is a vibrant public space offering free Wi-Fi, where people gather to  relax in a welcoming environment.</figcaption>
+                         </figure>
+                        
+                    </div>
+                    <div class="image-viewer">
+                        <div>
+                        <span id="close">&times;</span>
+                        <img  id="full-image" >
+                       </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="game-packs reveal" id="parcks">
+            <div class="game-packs-content">
+                <h1 id="heading">National parks</h1>
+                <p id="sub-heading">Our country boasts incredible  parks, where visitors can experience breathtaking wildlife and diverse natural landscapes. These parks offer fantastic opportunities for wildlife viewing and conservation. </p>
+                <p id="element-tittle">Virunga National Park</p>
+                <div class="wrapper">
+                    <div class="container">
+                        <img src="media/grl5.jfif" class="image-virunga">
+                        <img src="media/grl4.jfif" class="image-virunga">
+                        <img src="media/crater.png" class="image-virunga">
+                        <img src="media/grl3.jfif" class="image-virunga">
+                        <img src="media/grl6.jpg" class="image-virunga">
+                        <img src="media/volcanoes-view.png" class="image-virunga">
+                        
+                     
+                    </div>
+                    <div class="image-viewer">
+                        <div>
+                        <span id="close">&times;</span>
+                        <span class="slide left"   onclick="prev()"><h1>&lt;</h1> </span>
+                        <span class="slide right" onclick="next()"><h1>&gt; </h1></span>
+                        <img  id="full-image" >
+                       </div>
+                    </div>
+                </div>
+                <div class="akagera">
+                    <p id="element-tittle">Akagera National Park</p>
+                    <div class="wrapper">
+                        <div class="container">
+                            <img src="media/zebra.jfif" class="image-virunga">
+                            <img src="media/antilope.jfif" class="image-virunga">
+                            <img src="media/lion3.jfif" class="image-virunga">
+                            <img src="media/buffalo.jfif" class="image-virunga">
+                            <img src="media/girafe_0.png" class="image-virunga">
+                            <img src="media/wide-view.jpg" class="image-virunga">
+                            
+                        </div>
+                        <div class="image-viewer">
+                            <div>
+                            <span id="close">&times;</span>
+                            <span class="slide left"   onclick="prev()"><h1>&lt;</h1> </span>
+                            <span class="slide right" onclick="next()"><h1>&gt; </h1></span>
+                            <img  id="full-image" >
+                           </div>
+                        </div>
+                    </div>
+                <div class="nyungwe">
+                    <p id="element-tittle">Nyungwe National Park</p>
+                    <div class="wrapper">
+                        <div class="container">
+                            <img src="media/monkey.png" class="image-virunga">
+                            <img src="media/bird.png" class="image-virunga">
+                            <img src="media/canopy.jpg" class="image-virunga">
+
+
+                        </div>
+                        <div class="image-viewer">
+                            <div>
+                            <span id="close">&times;</span>
+                            <span class="slide left"   onclick="prev()"><h1>&lt;</h1> </span>
+                            <span class="slide right" onclick="next()"><h1>&gt; </h1></span>
+                            <img  id="full-image" >
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="culture" id="culture">
+            <div class="culture-content">
+                <h1 id="heading">Our Culture</h1>
+                <div class="wrapper">
+                 <figure>
+                    <img src="media/traditional dressing.jpg" class="culture-image">
+                    
+                 </figure>
+                 <figure>
+                    <img src="media/girls traditional.jpg" class="culture-image">
+                     >
+                 </figure>
+                 <figure>
+                    <img src="media/nyanza intore.jpg" class="culture-image">
+                    
+                 </figure>
+                 <figure>
+                    <img src="media/butare-museum.jpg" class="culture-image">
+                    
+                 </figure>
+                 <figure>
+                    <img src="media/king place.png" class="culture-image">
+     
+                 </figure>
+                 <figure>
+                    <img src="media/inyambo.jpg" class="culture-image">
+
+                 </figure>
+                 <figure>
+                    <img src="media/imigongo.jpg" class="culture-image">
+                    
+                 </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h3>VISIT RWANDA</h3>
+            <p id="visit-rda"><a href="https://visitrwanda.com/">Click here</a> to know more about Rwanda, like investments or book a ticket visit Rwanda on official website.</p> 
+        </div>
+        <div>
+            <h3>QUICK LINKS</h3>
+            <ul>
+                <li><a href="https://virunga.org/">Virunga National Parks</a></li>
+                <li><a href="https://www.akageranationalpark.org/">Akagera National Parks</a></li>
+                <li><a href="https://www.kcc.rw/">KCC</a></li>
+            </ul>
+        </div>
+        <div class="contacts">
+            <h3>FOLLOW US</h3>
+            <a href="https://www.instagram.com/visitrwanda_now/">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  width="32" height="32" viewBox="0 0 24 24">
+                <path d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z"></path>
+            </svg>
+            </a>
+            <a href="https://www.facebook.com/visitrwandanow/">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  width="32" height="32" viewBox="0 0 24 24">
+                <path d="M12,2C6.477,2,2,6.477,2,12c0,5.013,3.693,9.153,8.505,9.876V14.65H8.031v-2.629h2.474v-1.749 c0-2.896,1.411-4.167,3.818-4.167c1.153,0,1.762,0.085,2.051,0.124v2.294h-1.642c-1.022,0-1.379,0.969-1.379,2.061v1.437h2.995 l-0.406,2.629h-2.588v7.247C18.235,21.236,22,17.062,22,12C22,6.477,17.523,2,12,2z"></path>
+            </svg>
+        </a>
+            <a href="https://x.com/visitrwanda_now">
+            <svg  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 50 50">
+                <path d="M 5.9199219 6 L 20.582031 27.375 L 6.2304688 44 L 9.4101562 44 L 21.986328 29.421875 L 31.986328 44 L 44 44 L 28.681641 21.669922 L 42.199219 6 L 39.029297 6 L 27.275391 19.617188 L 17.933594 6 L 5.9199219 6 z M 9.7167969 8 L 16.880859 8 L 40.203125 42 L 33.039062 42 L 9.7167969 8 z"></path>
+                </svg> 
+            </a>    
+        </div>
+        <article>
+            <p id="msg">Copyright &copy;2024, All rights reserved | This blog was developed by a young indipendent DEV, in need of your own website or any other thing don't hasitate to reach out on him +(250) 798 223 900.</p>
+            <span></span>
+        </article>
+        
+    </footer>
+</body>
+</html>
